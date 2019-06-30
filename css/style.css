@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 60%;
+    border-radius: 10%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    size: 100%;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 80%;
+}
+
+
+
+.carousel-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%; 
+}
+
+.txt-blog{
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+
+
+h2{
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+button{
+    border-radius: 10%;
+    color: white;
+    font-size: larger;
+    border-color: darkgray;
+    background-color: #5374ec;
+}
+

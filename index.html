@@ -7,10 +7,10 @@
     <meta name = "description" content = " ">
  
     <link rel="stylesheet" href="css/style.css">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>    </title>  
 </head> 
-    <div id="nav-meu">
+    <div id="nav-menu">
      <ul>
                             <li>
                                 <a href="#inicio">Menu</a>
@@ -25,13 +25,88 @@
 
 </head>    
 <body>
-    <h1>  Wasabi  </h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="carouselPrincipal" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselPrincipal" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselPrincipal" data-slide-to="1"></li>
+                    <li data-target="#carouselPrincipal" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/img_teste_01.png" style="width: 100%">
+                    </div>
+                  
+                    <div class="carousel-item">
+                        <img src="imagens/img_teste_02.png" style="width: 100%">
+                    </div>
+                      
+                    <div class="carousel-item">
+                        <img src="imagens/img_teste_03.png"  style="width: 100%">
+                    </div>
+                </div>
+    
+                <a class="carousel-control-prev" href="#carouselPrincipal" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselPrincipal" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Proximo</span>
+                </a>
+    
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-5 container">
+            <img src="imagens/img_teste.jpg" class="img-container" >
+            <h2>What is Lorem Ipsum?</h2>
+            <p class="txt-blog">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap
+                                into electronic typesetting, remaining essentially unchanged. It was popularised
+                                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+                                , and more recently with desktop publishing software like Aldus PageMaker including
+                                versions of Lorem Ipsum.</p>
+                                <div class="btn-container">
+                                        <button  id="btn-um">Saiba Mais</button>
+                                </div>
+            
+        </div>
+        <div class="col-sm-5 container">
+            <img src="imagens/img_teste.jpg" class="img-container" >
+            <h2>What is Lorem Ipsum?</h2>
+            <p class="txt-blog">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book. It has survived not only five centuries, but also the leap
+                            into electronic typesetting, remaining essentially unchanged. It was popularised
+                            in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+                            , and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                            <div class="btn-container">
+                                    <button  id="btn-dois">Saiba Mais</button>
+                            </div>
+        </div>
+    </div>
+
 
 
 
     <footer id ="footer-newsletter"> 
     <p> feito com amor </p>
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Pricipal.js"></script>
 </body> 
 
 </html> 
