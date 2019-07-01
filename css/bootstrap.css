@@ -1028,6 +1028,7 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+    padding: 50%;
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
@@ -1068,6 +1069,7 @@ pre code {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    
   }
   .order-md-first {
     -ms-flex-order: -1;
@@ -2397,6 +2399,7 @@ textarea.form-control {
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
+  
   }
 }
 
@@ -2421,7 +2424,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #ed4420;
   border-color: #007bff;
 }
 
@@ -2438,7 +2441,7 @@ fieldset:disabled a.btn {
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
   background-color: #007bff;
-  border-color: #007bff;
+  border-color: 007bff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,

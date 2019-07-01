@@ -8,21 +8,41 @@
  
     <link rel="stylesheet" href="css/style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <title>    </title>  
-</head> 
-    <div id="nav-menu">
-     <ul>
-                            <li>
-                                <a href="#inicio">Menu</a>
-                            </li>
-                            <li>
-                                <a href="#newsletter">NewsLetter</a>
-                            </li>
-                        </ul>
-                    </nav>
-    </ul>
-   </div>
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
+
+    <title> Alô, Empreendedor!   </title>  
+</head> 
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Alô Empreendedor</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Menu <span class="sr-only">(Página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#newsletter">NewsLetter</a>
+      </li>
+    
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  </div>
+</nav>
+
+    
+   
+</nav>
+  </div>
+</nav>
 </head>    
 <body>
     <div class="row">
@@ -98,12 +118,52 @@
     </div>
 
 
+<form id ="newsletter" class = "col-sm-12 container">
+ <div class="form-group">
+    <label for="exampleInputPassword1"></label>
+    <input type="name" class="form-control" id="namanewsletter" placeholder="Nome e Sobrenome">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1"></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+  </div>
+  <button type="submit" class="btn btn-primary">Assinar e ter sucesso</button>
+</form>
+<!--Footer-->
+    
+    <footer id="landing-footer" class="col-sm-12 container">
+        <div class="row">
 
+            <p id="copyright" class="col-md-12 ">Alö Empreendedor, o melhor conteúdo para quem quer empreender</a></p>
 
-    <footer id ="footer-newsletter"> 
-    <p> feito com amor </p>
+            <!--Social Icons in Footer-->
+            <ul class="col-md-12 ">
+               
+                <li>
+                          <a target="_blank" title="Instagram" href="https://www.instagram.com/aloempreendedor/">
+                                    <i class="fa fa-instagram fa-1x"></i>
+                        </a>
+                    </li>           
+                <li>
+                    <a target="_blank" title="Facebook" href="https://www.facebook.com/aloempreendedor">
+                        <i class="fa fa-facebook fa-1x"></i>
+                    </a>
+                </li>
+               
+                <li>
+                    <a target="_blank" title="Linkedin" href="https://www.linkedin.com/alo-empreendedor">
+                        <i class="fa fa-linkedin fa-1x"></i>
+                    </a>
+                </li>
+            
+        </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
     </footer>
+    <!--End of Footer-->
 
+
+    
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/Pricipal.js"></script>
