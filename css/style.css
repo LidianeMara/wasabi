@@ -11,15 +11,24 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     width: 60%;
-    border-radius: 10%;
+    border-radius: 1.25rem;
 }
 
 .btn-container{
     display: flex;
+    color: white;
+    text-align: center;
+    background-color: #053d4e;
+    border: 1px solid  darkgray;
+    font: Roboto Medium;
+    font-size: larger;
+    border-radius: 0.75rem;
     justify-content: space-around;
     flex-wrap: wrap;
-    size: 100%;
+    padding: 3px 1.175rem .75rem;
 }
+
+
 
 .carousel{
     display: flex;
@@ -29,8 +38,6 @@
     flex-wrap: nowrap;
     height: 80%;
 }
-
-
 
 .carousel-item{
     display: block;
@@ -42,31 +49,65 @@
 .txt-blog{
     text-align: center;
     flex-wrap: nowrap;
+    font:Roboto Regular;
 }
-
-
 
 h2{
     text-align: center;
     flex-wrap: nowrap;
+    font: Roboto;
 }
 
-button{
-    border-radius: 10%;
+h5
+{
+    text-align: left;
+    flex-wrap: nowrap;
+    font: Roboto Regular;
     color: white;
-    font-size: larger;
-    border-color: darkgray;
+}
+
+.txt-footer
+{
+    text-align: left;
+    flex-wrap: nowrap;
+    font:Roboto Regular;
+    color: white;
+    width: 250px;
+}
+
+.footer-pricipal{
     background-color: #053d4e;
+    margin-top: 10px;
+}
+
+.footer-secundaria{
+    background-color: white;
+}
+
+.copyright-style{
+    font: Roboto Thin;
+    text-align: center;
+}
+
+ul
+{
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
 }
 
 
 #landing-footer {
     clear: both;
-    background: #053d4e;
 }
+
+
 
 #landing-footer .row {
     padding: 0;
+    background: #053d4e;
 }
 
 #landing-footer p {
