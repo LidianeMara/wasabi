@@ -17,7 +17,6 @@
 
     <title> Alô, Empreendedor!   </title>  
 </head> 
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Alô Empreendedor</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
@@ -132,14 +131,14 @@
             </div>
         </div>
         <div class="col-md-5">
-            <form id ="newsletter" class = "col-md-12 container">
+            <form name="contact" method="POST" data-netlify="true" class = "col-md-12 container">
                 <div class="form-group">
                     <label for="exampleInputPassword1"></label>
-                    <input type="name" class="form-control" id="namanewsletter" placeholder="Nome e Sobrenome">
+                    <input type="name" class="form-control" id="name" placeholder="Nome e Sobrenome">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1"></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
                 </div>
                 <button type="submit" class="btn btn-primary">Assinar e ter sucesso</button>
             </form>
