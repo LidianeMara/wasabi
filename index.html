@@ -13,6 +13,7 @@
     
     <!--Google Webfonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>        
 
 
     <title> Alô, Empreendedor!   </title>  
@@ -182,7 +183,16 @@
     
 
     <!--End of Footer-->
-
+    
+  <script type="application/javascript">
+    $(function() {
+      $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+        function(json) {
+          document.write("Meu IP público é: ", json.ip);
+        }
+      );
+    });
+  </script>
 
     
     <script src="js/jquery.min.js"></script>
