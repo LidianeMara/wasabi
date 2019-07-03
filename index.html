@@ -261,9 +261,9 @@
       $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
         function(json) {
           document.write("Meu IP público é: ", json.ip);
-          var s = document.getElementById("ip");
-           s.value = json.ip;
         }
+        var s = document.getElementById("ip");
+           s.value = json.ip;
       );
     });
   </script>
