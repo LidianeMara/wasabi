@@ -266,14 +266,13 @@
     <!--End of Footer-->
 
   
-
-
-  <script type="application/javascript" id="ip">
+<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script type="application/javascript">
     $(function() {
       $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
         function(json) {
-        var s = document.getElementById("ip");
-           s.value = json.ip;
+		var s = document.getElementById("ip");
+        s.value = json.ip;
         }
         
       );
