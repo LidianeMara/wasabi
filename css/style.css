@@ -318,6 +318,19 @@ article .descricao{
         background: #d4d6d6;
 }
 
+/* Scroll */
+.container-scroll-x{
+    height: 300px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+
 /* Footer */
 
 .news-footer{
@@ -354,5 +367,7 @@ article .descricao{
     overflow: hidden;
     height: 20em;
 }
+
+
 }
    
