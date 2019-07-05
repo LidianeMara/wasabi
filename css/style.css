@@ -6,6 +6,17 @@ a{
     transition: all 0.35s;
 }
 
+.nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+
+}
+
 .btn-ghost{
       color: #fff!important;
     border: 3px #fff solid!important;
@@ -29,6 +40,7 @@ a{
 
 .btn-cor1 {
     padding: 6px 22px;
+    border: 0;
     border-radius: 80px;
     font-weight: 600;
     -webkit-transition: all 0.35s;
@@ -361,13 +373,13 @@ article .descricao{
 
     /*Responsivo*/
 @media screen and (max-width: 992px) {
-  .carousel-inner {
-    position: relative;
-    width: 152%!important;
-    overflow: hidden;
-    height: 20em;
+  .listagem-categorias li a{
+    margin: 6px 0;
+    display: inline-block;
+  }
+.carousel-caption {
+    bottom: -1px!important;
 }
-
 
 }
    

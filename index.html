@@ -58,12 +58,6 @@ src="https://www.facebook.com/tr?id=201448704135106&ev=PageView
 <!-- End Facebook Pixel Code -->
 
 
-
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,
-"script","https://chimpstatic.com/mcjs-connected/js/users/6458cf974cc0fc69394993cab/f50428d72cc24ec6eb04b2b34.js");</script>
-
-
-
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6089705.js"></script>
 <!-- End of HubSpot Embed Code -->
@@ -80,9 +74,18 @@ src="https://www.facebook.com/tr?id=201448704135106&ev=PageView
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="#newsletter"> Assinar NewsLetter</a>
+        <a class="nav-link" href="empreendedorismo.html">Empreendedorismo</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="digital.html"> Digital</a>
       </li>
     
+      <li class="nav-item">
+        <a class="nav-link" href="novidades.html">Novidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-cor1" href="#newsletter">Assinar Newsletter</a>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search">
@@ -138,7 +141,6 @@ src="https://www.facebook.com/tr?id=201448704135106&ev=PageView
         <ul class="listagem-categorias">
             <li><a href="empreendedorismo.html" title=""> Empreendedorismo </a></li>
             <li><a href="digital.html" title="">Digital  </a></li>
-            <li><a href="marketing.html" title="">Marketing  </a></li>
             <li><a href="novidades.html" title="">Novidades  </a></li>
         </ul>
 
@@ -262,17 +264,43 @@ src="https://www.facebook.com/tr?id=201448704135106&ev=PageView
                 <button type="submit" class="btn-cor1 " >Assinar e ter sucesso</button>
 </form>
 </div>
-
-<!--End mc_embed_signup-->
-        </div>
-
-    </div>
-      <header>
-       
-     </header>
-       
-    </div>
 </footer>
+
+<div class="modal fade" id="exemplomodal" tabindex="-1" role="dialog" aria-
+ labelledby="myLargeModalLabel">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="gridSystemModalLabel">Alô, Empreendedor!</h4>
+        </div>
+        <div class="modal-body">
+        E aí, bora se tornar um empreendedor digital?
+        <form  name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <input type="text" name="name" required="" class="form-control" id="name" placeholder="Nome e Sobrenome">
+                </div>
+                <div  class="form-group">
+                    <input  type="email" name="email" required="" class="form-control" id="email"  placeholder="Email">                                 
+                </div>
+                <div class ="form-group">
+                 <input type="radio" name="tipo_email" required="" value="b2b" > E-mail Corporativo<br>     
+                     <input type="radio" name="tipo_email" required="" value="b2c"> E-mail Pessoal<br>
+                </div>
+                 <div  class="form-group">
+                    <input type="hidden" name="ip" class="form-control" id="ip" value=" ">               
+                </div>
+                <button type="submit" class="btn-cor1 " >Assinar e ter sucesso</button>
+</form>
+            
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+
 
     <div class="container">
     <div class="row footer-secundaria">
@@ -309,6 +337,18 @@ src="https://www.facebook.com/tr?id=201448704135106&ev=PageView
     <!--End of Footer-->
 
   
+<!-- jquery -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- bootstrap -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- chamada da função -->
+<script type="text/javascript">
+$(window).load(function() {
+    $('#exemplomodal').modal('show');
+});
+</script>
+
+
 <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script> 
   <script type="application/javascript">
     $(function() {
